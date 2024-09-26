@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     padding: 10px;
     width: 60%;
-    margin: 5px auto 0 auto;
+   
 }
 
 .section img {
@@ -34,15 +34,19 @@ h2 {
     color: #e762a5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: unset;
+  
 }
 
+p1{
+    margin: 10px;
+}
 p6 {
     background-color: rgb(106, 251, 210);
     display: flex;
     justify-content: space-between;
     padding: 2px;
     width: 15%;
-    margin: 1px ;
+    
 }
 
 p7 {
@@ -51,12 +55,16 @@ p7 {
     justify-content: space-between;
     padding: 2px;
     width: 15%;
-    margin: 1px ;
+    
+}
+p8{
+    margin-left: 20px;
 }
 
 .section p1 {
     color: #effff5;
     font-size: larger;
+ 
 }
 
 .flexbox {
@@ -65,6 +73,7 @@ p7 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  
 }
 
 .item {
@@ -73,12 +82,22 @@ p7 {
     width: 25%;
     padding-left: 1px;
     padding-right: 1px;
+    
 }
 
 .content {
     background-color: rgb(226, 255, 153);
     border: 2px solid rgb(83, 121, 27);
-    padding: 10px;
+    padding: 5px;
+    
+}
+ 
+dd{
+   
+}
+
+ul{
+   
 }
 
 dt {
@@ -87,18 +106,44 @@ dt {
     justify-content: space-between;
     padding: 2px;
     width: 20%;
-    margin: 1px ;
+
 }
 
 dialog {
     display: flex;
     padding: 1px;
     width: 10%;
-    margin: 2px ;
 }
 
 video {
     display: block;
-    margin: auto;
 
+}
+
+nav {
+    background-color: #d7fa95;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 50px;
+    position: sticky;
+    top: 10%;
+    box-shadow: 0 0 10px rgb(24, 84, 45);
+    border-radius: 8px;
+}
+
+main {
+    padding: 20px;
+    float: right;
+    width: 70%;
+}
+
+
+.info-section {
+    background-color: #e0fcff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
 }
