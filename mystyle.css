@@ -147,3 +147,8 @@ main {
     margin-bottom: 20px;
     padding: 20px;
 }
+img {
+    margin-right: 20px;
+    display: block;
+    margin-left: 20px;    
+}
