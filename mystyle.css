@@ -109,6 +109,13 @@ p8{
     margin-left: 20px;
 }
 
+p5{
+    font-family: 'Times New Roman', Times, serif;
+    color: #87114c;
+    border-radius: 10px;
+    text-shadow: 1px 1px rgb(148, 159, 44);
+    background-color: rgb(196, 239, 255);
+}
 .section p1 {
     color: #effff5;
     font-size: larger;
@@ -148,16 +155,13 @@ nav {
     justify-content: left;
 }
 
-define {
+main {
     padding: 20px;
     float: right;
     width: 70%;
+    
 }
 
-
-
 img {
-    
     max-width: 100%;
-
 }
