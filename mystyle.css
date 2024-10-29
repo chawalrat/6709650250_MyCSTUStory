@@ -38,13 +38,18 @@ body {
 }
 
 .container2 {
-    display: grid;
-    grid-template-columns: repeat(2,200px);
-    grid-template-rows: repeat(auto-fit, minmax(100px,1fr));
-    justify-content: space-evenly;
-    
+   display: flex;
+   flex-direction: column;
 }
 
+.info-section {
+    background-color: #e0fcff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
 h1 {
     text-align: center;
@@ -125,13 +130,7 @@ main {
 }
 
 
-.info-section {
-    background-color: #e0fcff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-}
+
 img {
     
     max-width: 100%;
