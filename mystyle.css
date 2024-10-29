@@ -7,8 +7,9 @@ body {
     background-color: rgb(203, 71, 71);
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    width: 60%;
+    padding: 20px;
+    width: 300px;
+    max-width: 30px auto;
    
 }
 
@@ -19,13 +20,31 @@ body {
     box-shadow: 4px 5px  saddlebrown;
 }
 
-.container {
+.container1 {
     display: grid;
-    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,240px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    
+}
+
+.item {
+    background-color: rgb(226, 255, 153);
+    border: 2px solid rgb(83, 121, 27);
+    padding: 10px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2,200px);
     grid-template-rows: repeat(auto-fit, minmax(100px,1fr));
     justify-content: space-evenly;
     
 }
+
 
 h1 {
     text-align: center;
@@ -54,7 +73,10 @@ p4 {
     text-shadow: 1px 1px 2px rgb(225, 231, 148);
 }
 
-    
+.ul{
+    background-color: #1e6169;
+
+ }
 
 p8{
     margin-left: 20px;
@@ -67,42 +89,21 @@ p8{
 }
 
 
-
-.item-1 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-    
-}
-
-.content {
-    background-color: rgb(226, 255, 153);
-    border: 2px solid rgb(83, 121, 27);
-    padding: 5px;
-    display: grid;
-    justify-content: space-between;
-}
- 
-
 dt {
-    background-color: rgb(106, 200, 251);
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-    width: 20%;
-
+    color: #d58420;
+    text-shadow: 1px 1px 2px rgb(225, 231, 148);
 }
 
 dialog {
     display: flex;
-    padding: 1px;
+    padding: 10px;
+    margin-left: 
     width: 10%;
 }
 
 video {
-    display: block;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -132,7 +133,7 @@ main {
     padding: 20px;
 }
 img {
-    margin-right: 20px;
-    display: block;
-    margin-left: 20px;    
+    
+    max-width: 100%;
+
 }
