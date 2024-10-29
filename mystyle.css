@@ -49,23 +49,13 @@ p1{
     margin: 10px;
 }
 
-p6 {
-    background-color: rgb(106, 251, 210);
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-    width: 15%;
-    
+p4 {
+    color: #d58420;
+    text-shadow: 1px 1px 2px rgb(225, 231, 148);
 }
 
-p7 {
-    background-color: rgb(251, 190, 106);
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-    width: 15%;
     
-}
+
 p8{
     margin-left: 20px;
 }
