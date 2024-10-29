@@ -40,6 +40,10 @@ h2 {
 p1{
     margin: 10px;
 }
+
+p3{
+    
+}
 p6 {
     background-color: rgb(106, 251, 210);
     display: flex;
@@ -67,38 +71,33 @@ p8{
  
 }
 
-.flexbox {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    gap: 10px;
+
 }
 
-.item {
-    display: block;
-    box-sizing: border-box;
-    width: 25%;
-    padding-left: 1px;
-    padding-right: 1px;
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
     
 }
 
 .content {
     background-color: rgb(226, 255, 153);
     border: 2px solid rgb(83, 121, 27);
-    padding: 5px;
+    padding: 20px;
+    
+
+    
     
 }
  
-dd{
-   
-}
-
-ul{
-   
-}
 
 dt {
     background-color: rgb(106, 200, 251);
