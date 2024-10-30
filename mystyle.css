@@ -19,6 +19,13 @@ body {
     border-radius: 3px;
     box-shadow: 4px 5px  saddlebrown;
 }
+.info-section {
+    background-color: #e0fcff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
 
  h1 {
     text-align: center;
